@@ -1,0 +1,32 @@
+:root {
+    --colorRojo: #b81e14;
+    --colorGris: #92908b;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+li {
+    list-style: none;
+    text-align: center;
+}
+ul {
+    padding: 0;
+}
+body {
+    background-image: url('/img/bg-body.png');
+    font-family: 'Roboto';
+    margin: 0 10px;
+    max-width: 1180px;
+}
+@media (min-width: 1180px) {
+    body {
+        margin: 0 auto;
+    }
+        
+}
